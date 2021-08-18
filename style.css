@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root{
+  /* --primary-color: #0F0326; */
+  --primary-color: #09BC8A;
+  --sec-color: #004346;
+  --third-color: white;
+}
+
+body{
+  margin: 0px;
+  color: var(--third-color);
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--sec-color);
+}
+
+.nav{
+  padding: 20px;
+  background: var(--primary-color);
+  color: var(--third-color);
+  font-family: 'Nunito', sans-serif;
+}
+
+.heading{
+  text-align: center;
+  font-weight: 300;
+}
+
+a{
+  color: var(--third-color);
+  text-decoration: none;
+  padding: 10px;
+  /* text-underline-offset: 30%; */
+}
+
+.active{
+  border-bottom: 2px solid var(--third-color);
+
+}
+
+.label,
+.input{
+  display: block;
+  padding: 15px;
+}
+
+.input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.container{
+  /* display: block; */
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.question-container {
+  border: 2px solid var(--primary-color);
+  padding: 1rem;
+  margin: 10px;
+  width: 100%;
+}
+
+button{
+  color: var(--third-color);
+  background: var(--primary-color);
+  padding: 0.7rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+button:hover{
+  color: var(--primary-color);
+  background: transparent;
+}
+
+.output{
+  text-align: center;
+  /* width: 60%; */
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 2px solid var(--third-color);
+  border-radius: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
